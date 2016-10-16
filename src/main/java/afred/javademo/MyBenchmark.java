@@ -35,6 +35,19 @@ import org.openjdk.jmh.annotations.Benchmark;
 
 public class MyBenchmark {
 
+
+    /**
+     *
+     mvn archetype:generate \
+     -DinteractiveMode=false \
+     -DarchetypeGroupId=org.openjdk.jmh \
+     -DarchetypeArtifactId=jmh-java-benchmark-archetype \
+     -DgroupId=afred.javademo \
+     -DartifactId=JMHTest \
+     -Dversion=1.0
+     *
+     */
+
     @Benchmark
     public void testMethod() {
         // This is a demo/sample template for building your JMH benchmarks. Edit as needed.
